@@ -3,24 +3,10 @@ body {
     padding: 0;
     font-family: sans-serif;
   }
-  .text-primary{
-text-align: center;
-
-
-  }
-
-  .banner-spacing {
-    padding: 121px 0 !important;
-
-}
-
-.section-banner.bg-1 {
- 
-  height: 200px !important;
-}
-
-
-.section-banner .section-info{
-  padding: 12px 53px !important;
-
-}
+   .bd-theme-settings-open-btn{
+			   
+			   display:none;
+		   }
+		   .page-title-area {
+			   padding: 144px 0 40px !important;
+		   }

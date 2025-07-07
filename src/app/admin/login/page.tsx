@@ -38,7 +38,7 @@ export default function LoginPage() {
               <div className="col-lg-12">
                 <div className="p-5" style={{borderRadius:'20px',background:'white',marginTop: '100px !important;', border: 'solid 1px white', width: '511px',margin:'auto' }}>
                   <div className="text-center mb-4">
-                    <img src="/frontend/assets/img/logo/footer-Logo.jpg" style={{ width: '150px' }} />
+                    <img src="/frontend/assets/img/logo/logo.png" style={{ width: '150px' }} />
                   </div>
                   <form onSubmit={handleLogin}>
                     <div className="form-group">

@@ -4,225 +4,225 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="footer-area">
-        <div className="footer-widget-info ptb-100">
+      <footer className="footer-sticky">
+        
+        <section className="subscribe-area footer-bg pt-130 pb-80 p-relative z-index-1">
+          <div className="noise-wrapper">
+            <div className="noise"></div>
+          </div>
+          <div className="container">
+            <div className="subscribe-inner p-relative">
+              <div className="subscribe-shape-wrapper">
+                <img
+                  className="subscribe-area-shape-1"
+                  src="/frontend//assets/img/shape/footer/img-2.png"
+                  alt="subscribe shape"
+                />
+              </div>
+              <div className="row">
+                <div className="col-xl-12">
+                  <div className="subscribe-wrapper">
+                    <div className="subscribe-icon">
+                      <i className="flaticon-070-email-1"></i>
+                    </div>
+                    <div className="subscribe-text">
+                      <h3 className="subscribe-title">Connect With Our Team</h3>
+                    </div>
+                    <div className="subscribe-form p-relative">
+                      <div className="single-input-field field-email">
+                        <input type="email" placeholder="Enter Your Mail" />
+                      </div>
+                      <div className="subs-btn">
+                        <a href="#" className="fill-btn">Reach Us</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* subscribe-area-end */}
+
+        <section className="footer-widget-area footer-bg p-relative z-index-1">
+          <div className="noise-wrapper">
+            <div className="noise"></div>
+          </div>
+          <div className="container">
+            <div className="footer-shape-wrapper">
+              <div className="footer-shape shape-1">
+                <img src="/frontend//assets/img/shape/footer/img-1.png" alt="footer shape" />
+              </div>
+            </div>
+            <div className="arm-footer-border">
+              <div className="row">
+                <div className="col-xl-4 col-lg-4">
+                  <div className="arm-footer-widget footer2-widget-1 mb-40">
+                    <div className="footer-widget-logo mb-30">
+                      <Link href="/">
+                        <img src="/frontend//assets/img/logo/logo-white.png" alt="logo" />
+                      </Link>
+                    </div>
+                    <p>
+                      Griffin Cybernetic has been established in 2022 with its registered office at Veer Colony, Bathinda –151001 (PB), a trailblazer in the manufacturing of modular steel structures and cutting-edge defense systems.
+                    </p>
+                    <div className="footer-widget-social">
+                      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-facebook"></i>
+                      </a>
+                      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin-in"></i>
+                      </a>
+                      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-xl-4 col-lg-4">
+                  <div className="arm-footer-widget footer2-widget-2 mb-40">
+                    <div className="footer-widget-title">
+                      <h3>Our Address</h3>
+                    </div>
+                    <div className="footer-widget-contact">
+                      <ul>
+                        <li>
+                          <div className="arm-single-contact">
+                            <div className="footer-contact-icon">
+                              <i className="flaticon-077-map"></i>
+                            </div>
+                            <p>Bathinda, Punjab, 151001</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="arm-single-contact">
+                            <div className="footer-contact-icon">
+                              <i className="flaticon-073-email-2"></i>
+                            </div>
+                            <p>
+                              <a href="mailto:info@griffincybernetic.in">
+                                info@griffincybernetic.in
+                              </a>
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="arm-single-contact">
+                            <div className="footer-contact-icon">
+                              <i className="flaticon-060-call"></i>
+                            </div>
+                            <p>
+                              <a href="tel:912569320003">+91 123-123-1234</a>
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-xl-4 col-lg-4">
+                  <div className="arm-footer-widget footer2-widget-3 mb-40">
+                    <div className="footer-widget-blog">
+                      <div className="footer-widget-title">
+                        <h3>Recent News</h3>
+                      </div>
+
+                      <div className="blog-single blog-footer mb-30">
+                        <div className="footer-blog-thumb">
+                          <Link href="#"><img src="/frontend/assets/img/blog/blog-5.jpg" alt="blog image" /></Link>
+                        </div>
+                        <div className="arm-footer-blog-content">
+                          <div className="footer-blog-title">
+                            <h5>
+                              <Link href="#">Save Lives Fire Safety Rules</Link>
+                            </h5>
+                          </div>
+                          <div className="arm-footer-blog-meta-list">
+                            <div className="arm-footer-blog-meta">
+                              <div className="footer-blog-icon">
+                                <i className="flaticon-048-calendar"></i>
+                              </div>
+                              <div className="footer-blog-meta-text">
+                                <span>20 Sep, 2025</span>
+                              </div>
+                            </div>
+                            <div className="arm-footer-blog-meta">
+                              <div className="footer-blog-icon">
+                                <i className="flaticon-052-chat-bubble"></i>
+                              </div>
+                              <div className="footer-blog-meta-text">
+                                <Link href="#"><span>0 Comments</span></Link>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="blog-single blog-footer mb-30">
+                        <div className="footer-blog-thumb">
+                          <Link href="#"><img src="/frontend/" alt="blog image" /></Link>
+                        </div>
+                        <div className="arm-footer-blog-content">
+                          <div className="footer-blog-title">
+                            <h5>
+                              <Link href="#">
+                                Griffin Cybernetic robotics grants for 100 schools of forces training
+                              </Link>
+                            </h5>
+                          </div>
+                          <div className="arm-footer-blog-meta-list">
+                            <div className="arm-footer-blog-meta">
+                              <div className="footer-blog-icon">
+                                <i className="flaticon-048-calendar"></i>
+                              </div>
+                              <div className="footer-blog-meta-text">
+                                <span>20 Sep, 2024</span>
+                              </div>
+                            </div>
+                            <div className="arm-footer-blog-meta">
+                              <div className="footer-blog-icon">
+                                <i className="flaticon-052-chat-bubble"></i>
+                              </div>
+                              <div className="footer-blog-meta-text">
+                                <Link href="#"><span>0 Comments</span></Link>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div className="copyright-area footer-bg pt-60 pb-60 p-relative z-index-1">
+          <div className="noise-wrapper">
+            <div className="noise"></div>
+          </div>
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-sm-6 col-md-6">
-                <div className="footer-widget">
-                  <h4>Campus Life</h4>
-                  <ul>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Accessibility
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Financial Aid
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Food Services
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Housing
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Information
-                        Technologies
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Student Life
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-md-6">
-                <div className="footer-widget">
-                  <h4>Our Campus</h4>
-                  <ul>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Academic
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Planning &
-                        Administration
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Campus Safety
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Office of the
-                        Chancellor
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Facility
-                        Services
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Human Resources
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-md-6">
-                <div className="footer-widget">
-                  <h4>Academics</h4>
-                  <ul>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Canvas
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Catalyst
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Library
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Time Schedule
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Apply For
-                        Admissions
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Pay My Tuition
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 col-md-6">
-                <div className="footer-widget">
-                  <h4>Information For</h4>
-                  <ul>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> How To Apply
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Dates &
-                        Deadlines
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Student
-                        Activities
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Support &
-                        Guidance
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Schedule A Tour
-                      </a>
-                    </li>
-                    <li>
-                      <a href="">
-                        <i className="bx bx-chevron-right"></i> Faculty & Staffs
-                      </a>
-                    </li>
-                  </ul>
+              <div className="col-xl-12">
+                <div className="copyright-text copyright-2-text text-center">
+                  Copyright &copy; 2023 by Griffin Cybernetic. All rights reserved.
+                  Developed by{" "}
+                  <a href="https://digitaldreamsscapes.com/" target="_blank" rel="noopener noreferrer">
+                    Digital Dreamsscapes
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="copy-right-area style-2">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-4">
-                <div className="cpr-left">
-                  <p>
-                    Copyright© 2025<a href="#">Edusquare Solutions</a>, All
-                    rights reserved.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-8">
-                <div className="cpr-right">
-                  <ul>
-                    <li>
-                      <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href="#">Cookie Policy</a>
-                    </li>
-                  </ul>
-                  <ul className="social-list">
-                    <li>
-                      <a href="#">
-                        <i className="bx bxl-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="bx bxl-instagram-alt"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="bx bxl-linkedin-square"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="copy-logo">
-              <img
-                src="frontend/assets/img/logo/footer-Logo.jpg"
-                style={{ width: "150px" }}
-                alt="image"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      </footer>
     </>
   );
 }
