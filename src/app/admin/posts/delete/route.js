@@ -1,4 +1,4 @@
-import { connectDB } from '../../db';
+import { connectDB } from '../../../../db';
 import { NextResponse } from 'next/server';
 
 export async function DELETE(req) {
